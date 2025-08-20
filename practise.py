@@ -1,20 +1,47 @@
 # Question 1
 '''Even or Odd Number Check: Write a Python program that takes an integer as input from
  the user and determines whether it is an even or an odd number.'''
+'''def check_even_odd():
+    a = int(input("enter your number: "))
+    if a % 2 == 0:
+        print("even")
+    else:
+        print("odd")
+
+
+check_even_odd()'''
+
+
 
 # Question 2
 '''Calculate the Factorial: Write a Python function that calculates the factorial of a 
 non-negative integer. The factorial of a number n is the product of all positive integers
  less than or equal to n. (e.g., 5! = 5 * 4 * 3 * 2 * 1 = 120).'''
+'''def factial():
+    n = int(input("enter your  number: "))
+    product = 1 
+    for i in range (1,n+1):
+        product =  product*i
+        
+    return product
+    
+print(factial())'''
 
 # Question 3
 '''Reverse a String: Write a Python program that takes a string as input and prints its reversed version.
+
 '''
+
 
 # Question 4
 '''Find the Largest Number in a List: Write a Python program that finds and prints the largest number
  in a given list of integers.'''
 
+
 # Question 5
 '''Count Vowels in a String: Write a Python function that takes a string as input and returns the count 
 of vowels (a, e, i, o, u, case-insensitive) present in the string.'''
+
+
+
+
